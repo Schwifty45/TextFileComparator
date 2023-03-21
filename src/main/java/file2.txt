@@ -1,0 +1,14 @@
+• Veri tekrarı: Aynı veri çeşitli dosyalarda birden fazla yer alabilmektedir buda
+sistemin hantallaşmasına neden olur. Mesela bir stok dosyasında stok numarası
+verisinin malzeme dosyasında, fatura dosyasında ve ambar girişi dosyasında yer
+alması gibi.
+• Verinin birkaç dosyada güncellemesi: Veri birden fazla dosyada tekrar
+edilebildiği için, verinin bir dosyada güncellenip diğerlerinde güncellenmemesi
+Veri Bütünlüğünün (Data Integrity) bozulmasına neden olabilir. Buna bağlı olarak
+birbiri ile çelişen raporlar üretilebilir.
+• Belleğin tekrarlı bilgi nedeniyle israfı: Aynı verinin birden fazla dosya içinde
+bulunması nedeniyle kullanılan veri hard diskte fazla yer işgal edecek. Yani hard
+disk tekrarlı veriler için kullanılmış olacaktır.
+• Sadece belirli bir dilin kullanılması :Verilerin dosya sisteminde saklandığı
+ortamlar için değişik programlama dillerinden bir tanesi kullanılır. Kullanılan bu
+programlama dili ise SSS dili gibi esnek değildir. 
